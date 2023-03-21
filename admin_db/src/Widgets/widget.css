@@ -1,0 +1,21 @@
+.widget{
+    width: 100%;
+} 
+.widget-wrapper{
+    width: fit-content;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    align-items: center;
+
+}
+
+.left-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 5px; */
+}
